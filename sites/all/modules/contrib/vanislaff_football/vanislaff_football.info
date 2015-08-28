@@ -1,0 +1,4 @@
+name = vanislaff_football
+description = football_modul_for_drupal
+core = 7.x
+package = other

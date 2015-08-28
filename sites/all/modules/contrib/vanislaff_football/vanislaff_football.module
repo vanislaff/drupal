@@ -1,0 +1,14 @@
+<?php
+function vanislaff_football_menu(){ 
+	$items['test'] = array(
+		'title' => 'test',
+		'page callback' => 'just_a_word',
+		'access callback' => TRUE,
+		'menu_name' => 'main-menu',
+		'type' => MENU_NORMAL_ITEM,
+		'file' => 'vanislaff_football.pages.inc',
+		'options' => array('attributes' => array('class' => array('test-class'))),
+		);
+	return $items;
+}
+?>
